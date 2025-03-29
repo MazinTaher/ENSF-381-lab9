@@ -1,0 +1,76 @@
+.predictor-container {
+    max-width: 600px;
+    margin: 40px auto 0;
+    padding: 24px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .predictor-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 12px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 4px;
+  }
+  
+  .form-group input, .form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox-group input {
+    width: auto;
+    margin-right: 8px;
+  }
+  
+  .predict-button {
+    padding: 12px 24px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 12px;
+  }
+  
+  .predict-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .prediction-result {
+    margin-top: 16px;
+    padding: 12px;
+    background-color: #DFF0D8;
+    border: 1px solid #3C763D;
+    border-radius: 4px;
+  }
+  
+  
+  .prediction-result p {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+  
+  .error-message {
+    margin-top: 16px;
+    padding: 12px;
+    color: red;
+    background-color: #f9dadc;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+  }
